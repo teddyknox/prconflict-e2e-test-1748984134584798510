@@ -1,11 +1,12 @@
+// Modified package declaration
 package main
-import "fmt"
+import (
+	"fmt"
+	"log"
+)
 func main() {
-	fmt.Println("line 4")
-	fmt.Println("line 5") 
-	fmt.Println("line 6")
-	fmt.Println("line 7")
-	fmt.Println("line 8")
-	fmt.Println("line 9")
+	log.Println("Changed line 8")
+	fmt.Println("line 9") 
 	fmt.Println("line 10")
+	fmt.Println("This is a new final line")
 }
